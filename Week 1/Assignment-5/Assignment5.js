@@ -17,13 +17,13 @@ console.log(count(input1));
 // should print {a:3, b:1, c:2, x:1}
 function groupByKey(input) {
 // your code here
-    let obj = [];
+    let obj = {};
     for(let i=0;i<input.length;i++){
-        if(obj.find(e => e.key === input[i].key)){
-            obj.find(e => e.key === input[i].key).value+= input[i].value;
+        if(obj[input[i].key]){
+            obj[input[i].key]+=input[i].value;
         }
         else{
-            obj.push(input[i]);
+            obj[input[i].key] = input[i].value;
         }
     }    
     return obj;

@@ -1,10 +1,19 @@
 function max(numbers) {
     // your code here, for-loop method preferred
-    return Math.max(...numbers);
+    let max = 0;
+    for(let i=0;i<numbers.length;i++){
+        if(numbers[i]>max)
+            max=numbers[i];
+    }
+    return max;
     }
     function findPosition(numbers, target) {
     // your code here, for-loop method preferred
-    return numbers.indexOf(target);
+    for(let i=0;i<numbers.length;i++){
+        if(numbers[i]==target)
+            return i;
+    }
+    return -1;
     }
     console.log(max([1, 2, 4, 5])); // should print 5
     console.log(max([5, 2, 7, 1, 6])); // should print 7

@@ -11,23 +11,7 @@
     // your code here
         let ans = [];
         for(let i=0;i<input.length;i++){
-            switch(input[i]){
-                case 'a':
-                    ans.push("1");
-                    break;
-                case 'b':
-                    ans.push("2");
-                    break;
-                case 'c':
-                    ans.push("3");
-                    break;
-                case 'd':
-                    ans.push("4");
-                    break;
-                case 'e':
-                    ans.push("5");
-                    break;                               
-            }
+            ans.push(input[i].charCodeAt(0)-'a'.charCodeAt(0)+1);
         }    
         return ans;    
     }
