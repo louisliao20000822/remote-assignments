@@ -1,0 +1,23 @@
+.main_header,.item,.content_box,.foot{
+    display: flex;
+}
+.item{
+
+    justify-content: flex-end;
+}
+
+.title{
+    margin-right: auto;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+.content_box{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.foot{
+    justify-content: center;
+}

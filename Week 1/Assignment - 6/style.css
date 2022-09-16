@@ -1,0 +1,40 @@
+
+* { margin: 0; }
+header{
+    background-color: rgb(218, 220, 221);
+    
+}
+.item_num {
+	color: rgb(8, 8, 8);
+	padding: 15px;
+
+
+}
+h2{
+    padding: 100px;
+    background-color: rgb(150, 189, 207);
+}
+h3{
+    text-align: center;
+    font-size: 1.4em;
+    padding:20px;
+}
+
+.content{
+    color: rgb(7, 7, 7);
+	margin: 5px;	
+	background: #6b809efb;
+	border-radius: 3px;
+    padding: 5px 300px 200px 300px;
+}
+div{
+    font-size: 1.1em;
+    color: black;
+}
+.foot_bar{
+    margin: 5px;	
+	background: #c0dbdf;
+	border-radius: 3px;
+    padding: 15px;
+
+}
